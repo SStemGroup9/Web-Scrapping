@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Config.html</title>
+    </head>
+    <body>
+        <Strong>Configuration File</Strong>
+        <form action="build.php" method="post">
+            <fieldset>
+            <legend>WebScraping</legend>
+                name:<br>
+                <input type="text" name="name"><br>
+                Start Date:<br>
+                <input type="date" name="start_date">
+                <br>
+                End Date:<br>
+                <input type="date" name="end_date">
+            </fieldset>
+            <fieldset>
+            <legend>Graph</legend>
+                <select name="graph">
+                    <option values="bar">Bar Graph</option>
+                    <option values="scatter">Scatter Plot</option>
+                    <option values="line">Line Graph</option>
+                    <option values="step">Step/Star Graph</option>
+                </select>
+            </fieldset>
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
